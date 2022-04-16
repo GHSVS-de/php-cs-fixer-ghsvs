@@ -68,13 +68,17 @@ $config
 			### GHSVS:
 			# z.B. __dir__ nach __DIR__. https://www.php.net/manual/de/language.constants.magic.php
 			'magic_constant_casing'           => true,
-			// contrib
-			'concat_space'                          => ['spacing' => 'one'],
+			# Spacing to apply around concatenation operator.
+			'concat_space' => ['spacing' => 'one'],
 			/**
 			 * PHP 7+ zend_try_compile_special_func compiles certain PHP Functions to opcode which is faster
 			 * @see https://github.com/php/php-src/blob/9dc947522186766db4a7e2d603703a2250797577/Zend/zend_compile.c#L4192
 			 */
-			'native_function_invocation' => ['include' => ['@compiler_optimized'], 'scope' => 'namespaced', 'strict' => true],
+			'native_function_invocation' => [
+				'include' => ['@compiler_optimized'],
+				'scope' => 'namespaced',
+				'strict' => true
+			],
 			'no_mixed_echo_print' => ['use' => 'echo'],
 			'array_syntax' => ['syntax' => 'short'],
 			'normalize_index_brace' => true,
