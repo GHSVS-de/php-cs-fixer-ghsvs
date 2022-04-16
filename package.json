@@ -1,0 +1,7 @@
+{
+  "name": "php-cs-fixer-ghsvs",
+  "description": "Local FriendsOfPHP/PHP-CS-Fixer for my PHP projects.",
+  "version": "2022.04.16",
+  "dependencies": {},
+  "devDependencies": {}
+}
