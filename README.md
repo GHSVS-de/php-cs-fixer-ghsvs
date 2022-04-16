@@ -7,12 +7,15 @@
     }
 }
 ```
+
 - Konfiguriere `.php-cs-fixer.dist.php`
 Es können auch Pfade/Dateien außerhalb dieses Repositories eingetragen werden.
 
 - Oder nutze `.php-cs-fixer.php`-Datei(en), die du z.B. in anderen Repositories ablegst.
 With the ``--config`` option you can specify the path to the
 ``.php-cs-fixer.php`` file.
+
+- https://github.com/FriendsOfPHP/PHP-CS-Fixer#usage
 
 
 - `cd /mnt/z/git-kram/php-cs-fixer-ghsvs/`
