@@ -36,7 +36,7 @@ return $config;
 ```
 
 ### npm-run-Script für Kind-Repo
-- Lege in `package.json` dieses Repos hier (`php-cs-fixer-ghsvs`) zwei npm-run-Scripts an. Am Beispiel für Repo `plg_system_bs3ghsvs_bs5`:
+- Lege in `package.json` dieses Repos hier (`php-cs-fixer-ghsvs`) je zwei npm-run-Scripte pro Kind-Repo an. Am Beispiel des Kind-Repos `plg_system_bs3ghsvs_bs5`:
 
 ```json
 "scripts": {
