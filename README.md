@@ -37,18 +37,13 @@ $config
 return $config;
 ```
 
-- Lege in `package.json` dieses Repos hier (`php-cs-fixer-ghsvs`) zwei npm-run-Scripts an:
+- Lege in `package.json` dieses Repos hier (`php-cs-fixer-ghsvs`) zwei npm-run-Scripts an. Am Beispiel von Repo `plg_system_bs3ghsvs_bs5`:
 
 ```json
-...
-	"scripts": {
-...
-		"plg_system_bs3ghsvs_bs5Dry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_bs3ghsvs_bs5/.php-cs-fixer.php\" --dry-run",
-		"plg_system_bs3ghsvs_bs5": "vendor/bin/php-cs-fixer fix --config \"../plg_system_bs3ghsvs_bs5/.php-cs-fixer.php\""
-...
-	}
-...
-
+"scripts": {
+	"plg_system_bs3ghsvs_bs5Dry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_bs3ghsvs_bs5/.php-cs-fixer.php\" --dry-run",
+	"plg_system_bs3ghsvs_bs5": "vendor/bin/php-cs-fixer fix --config \"../plg_system_bs3ghsvs_bs5/.php-cs-fixer.php\""
+}
 ```
 - https://github.com/FriendsOfPHP/PHP-CS-Fixer#usage
 
