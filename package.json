@@ -3,5 +3,11 @@
   "description": "Local FriendsOfPHP/PHP-CS-Fixer for my PHP projects.",
   "version": "2022.04.16",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+	"scripts": {
+		"nur-testDry": "vendor/bin/php-cs-fixer fix --config \"../nur-test/.php-cs-fixer.php\" --dry-run",
+		"nur-test": "vendor/bin/php-cs-fixer fix --config \"../nur-test/.php-cs-fixer.php\"",
+		"plg_system_bs3ghsvs_bs5Dry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_bs3ghsvs_bs5/.php-cs-fixer.php\" --dry-run",
+		"plg_system_bs3ghsvs_bs5": "vendor/bin/php-cs-fixer fix --config \"../plg_system_bs3ghsvs_bs5/.php-cs-fixer.php\""
+	}
 }
