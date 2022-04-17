@@ -35,7 +35,7 @@ $config
 return $config;
 ```
 
-### npm-run-Script für Kind-Repo
+### npm-run-Scripte für Kind-Repo
 - Lege in `package.json` dieses Repos hier (`php-cs-fixer-ghsvs`) je zwei npm-run-Scripte pro Kind-Repo an. Am Beispiel des Kind-Repos `plg_system_bs3ghsvs_bs5`:
 
 ```json
@@ -45,9 +45,9 @@ return $config;
 }
 ```
 ### Starten des Fixers für Kind-Repo
+Am Beispiel des Repos `plg_system_bs3ghsvs_bs5`.
 - `cd /mnt/z/git-kram/php-cs-fixer-ghsvs/`
-
-Am Beispiel des Repos `plg_system_bs3ghsvs_bs5`:
+`---dry-run`
 - `npm run plg_system_bs3ghsvs_bs5Dry`
 oder echter Fix
 - `npm run plg_system_bs3ghsvs_bs5`
