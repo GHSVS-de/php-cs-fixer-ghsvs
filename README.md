@@ -47,9 +47,9 @@ return $config;
 ### Starten des Fixers für Kind-Repo
 Am Beispiel des Repos `plg_system_bs3ghsvs_bs5`.
 - `cd /mnt/z/git-kram/php-cs-fixer-ghsvs/`
-`---dry-run`
+#### `---dry-run`
 - `npm run plg_system_bs3ghsvs_bs5Dry`
-oder echter Fix
+#### oder echter Fix
 - `npm run plg_system_bs3ghsvs_bs5`
 
 -----------------------------------------------------
