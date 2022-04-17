@@ -9,7 +9,7 @@
 ```
 - Konfiguriere Regeln in `.php-cs-fixer.rules.php`. Die Datei ist von mir. Sie enthält die globalen Regeln, die aus den Konfigurationsdateien anderer Repositories gezogen werden.
 
-- Lege in dem Repository das gefixt werden soll eine Datei `.php-cs-fixer.php` an. Am Beispiel von Repo `plg_system_bs3ghsvs_bs5` sieht die z.B. so aus:
+- Lege in dem Repository, das gefixt werden soll eine Datei `.php-cs-fixer.php` an. Am Beispiel von Repo `plg_system_bs3ghsvs_bs5` sieht die z.B. so aus:
 
 ```PHP
 <?php
