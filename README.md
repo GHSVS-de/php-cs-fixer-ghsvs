@@ -67,6 +67,7 @@ Am Beispiel des Repos `plg_system_bs3ghsvs_bs5`.
 ```
 
 ## Installation
+- `cd /mnt/z/git-kram/php-cs-fixer-ghsvs/`
 - `composer update`
 
 ## Ausführen:
