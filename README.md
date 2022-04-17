@@ -70,5 +70,10 @@ Am Beispiel des Repos `plg_system_bs3ghsvs_bs5`.
 - `cd /mnt/z/git-kram/php-cs-fixer-ghsvs/`
 - `composer update`
 
-## Ausführen:
+## Ausführen pro Kind-Repo
 Siehe oben.
+
+## Auch ein guter Tipp
+Mir aber derzeit zu aufwändig.
+
+https://laravel-news.com/sharing-php-cs-fixer-rules-across-projects-and-teams
