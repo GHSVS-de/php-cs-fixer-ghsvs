@@ -1,6 +1,16 @@
 <?php
 /*
 Von mir ausgelagerte Rules, damit ich sie nicht immer wieder neu schreiben muss.
+
+SIEHE AUCH php-cs-fixer-ghsvs\vendor\friendsofphp\php-cs-fixer\src\RuleSet\Sets\PSR12Set.php
+DAS ERBT php-cs-fixer-ghsvs\vendor\friendsofphp\php-cs-fixer\src\RuleSet\Sets\PSR2Set.php
+EVENTUELL KANNST DU DAS uNTEN aUCH vereinfachen durch ein
+
+'@PSR12' => true,
+
+Ich bin nicht ganz sicher, aber nachdem bei Joomla das Umstellen auf PSR12 dazu geführt hat, dass 1 Tab durch 4 Spaces ersetzt wird, mag ich das wohl so plump nicht!!!!
+SIEHE DAZU aber auch das $config->setIndent("\t") in den .php-cs-fixer.php, was das hoffentlich dann overruled.
+
  */
 echo 'Ich lade Rules aus ' . __FILE__ . PHP_EOL . PHP_EOL;
 
@@ -38,12 +48,17 @@ return
 	'trailing_comma_in_multiline'           => ['elements' => ['arrays']],
 	'no_blank_lines_after_class_opening'    => true,
 	'phpdoc_trim'                           => true,
-	'blank_line_before_statement'           => ['statements' => ['return']],
+	'blank_line_before_statement'           => ['statements' => ['return', 'try', 'if', 'foreach', 'switch']],
 	'no_trailing_comma_in_singleline_array' => true,
 	'single_blank_line_before_namespace'    => true,
 	'cast_spaces'                           => true,
+	# Lösche ungenutze use-Zeilen.
 	'no_unused_imports'                     => true,
+	# Sortiere use-Zeilen.
+	'ordered_imports' => ['sort_algorithm' => 'alpha'],
 	'no_whitespace_in_blank_line'           => true,
+	# Nach dem ! ein Leerzeichen.
+	//'not_operator_with_successor_space' => true,
 	### GHSVS:
 	# z.B. __dir__ nach __DIR__. https://www.php.net/manual/de/language.constants.magic.php
 	'magic_constant_casing'           => true,
