@@ -1,4 +1,10 @@
-
+## Used by
+- [mod_custom_blankghsvs](https://github.com/GHSVS-de/mod_custom_blankghsvs)
+- [mod_splideghsvs](https://github.com/GHSVS-de/mod_splideghsvs)
+- [plg_system_bs3ghsvs_bs5](https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5)
+- [plg_system_convertformsghsvs](https://github.com/GHSVS-de/plg_system_convertformsghsvs)
+- [plg_system_onuserghsvs](https://github.com/GHSVS-de/plg_system_onuserghsvs)
+- [plg_content_prismhighlighterghsvs](https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs)
 
 ## Konfiguration
 ### Globale Rules/Regeln
