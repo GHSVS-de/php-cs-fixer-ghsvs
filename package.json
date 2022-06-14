@@ -13,6 +13,12 @@
 
 		"mod_splideghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../mod_splideghsvs/.php-cs-fixer.php\" --dry-run",
 		"mod_splideghsvs": "vendor/bin/php-cs-fixer fix --config \"../mod_splideghsvs/.php-cs-fixer.php\"",
+
+		"mod_tocghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../mod_tocghsvs/.php-cs-fixer.php\" --dry-run",
+		"mod_tocghsvs": "vendor/bin/php-cs-fixer fix --config \"../mod_tocghsvs/.php-cs-fixer.php\"",
+
+
+
 		"plg_system_bs3ghsvs_bs5Dry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_bs3ghsvs_bs5/.php-cs-fixer.php\" --dry-run",
 		"plg_system_bs3ghsvs_bs5": "vendor/bin/php-cs-fixer fix --config \"../plg_system_bs3ghsvs_bs5/.php-cs-fixer.php\"",
 
