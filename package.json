@@ -22,13 +22,24 @@
 		"plg_system_bs3ghsvs_bs5Dry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_bs3ghsvs_bs5/.php-cs-fixer.php\" --dry-run",
 		"plg_system_bs3ghsvs_bs5": "vendor/bin/php-cs-fixer fix --config \"../plg_system_bs3ghsvs_bs5/.php-cs-fixer.php\"",
 
+		"plg_system_characterscounterghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_characterscounterghsvs/.php-cs-fixer.php\" --dry-run",
+		"plg_system_characterscounterghsvs": "vendor/bin/php-cs-fixer fix --config \"../plg_system_characterscounterghsvs/.php-cs-fixer.php\"",
+
 		"plg_system_convertformsghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_convertformsghsvs/.php-cs-fixer.php\" --dry-run",
 		"plg_system_convertformsghsvs": "vendor/bin/php-cs-fixer fix --config \"../plg_system_convertformsghsvs/.php-cs-fixer.php\"",
 
+		"plg_system_hyphenateghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_hyphenateghsvs/.php-cs-fixer.php\" --dry-run",
+		"plg_system_hyphenateghsvs": "vendor/bin/php-cs-fixer fix --config \"../plg_system_hyphenateghsvs/.php-cs-fixer.php\"",
+
+		"plg_system_importfontsghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_importfontsghsvs/.php-cs-fixer.php\" --dry-run",
+		"plg_system_importfontsghsvs": "vendor/bin/php-cs-fixer fix --config \"../plg_system_importfontsghsvs/.php-cs-fixer.php\"",
 
 		"plg_system_onuserghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_onuserghsvs/.php-cs-fixer.php\" --dry-run",
 		"plg_system_onuserghsvs": "vendor/bin/php-cs-fixer fix --config \"../plg_system_onuserghsvs/.php-cs-fixer.php\"",
 		"plg_content_prismhighlighterghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../plg_content_prismhighlighterghsvs/.php-cs-fixer.php\" --dry-run",
-		"plg_content_prismhighlighterghsvs": "vendor/bin/php-cs-fixer fix --config \"../plg_content_prismhighlighterghsvs/.php-cs-fixer.php\""
+		"plg_content_prismhighlighterghsvs": "vendor/bin/php-cs-fixer fix --config \"../plg_content_prismhighlighterghsvs/.php-cs-fixer.php\"",
+
+		"tpl_bs4ghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../tpl_bs4ghsvs/.php-cs-fixer.php\" --dry-run",
+		"tpl_bs4ghsvs": "vendor/bin/php-cs-fixer fix --config \"../tpl_bs4ghsvs/.php-cs-fixer.php\""
 	}
 }
