@@ -17,6 +17,9 @@
 		"mod_custom_blankghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../mod_custom_blankghsvs/.php-cs-fixer.php\" --dry-run",
 		"mod_custom_blankghsvs": "vendor/bin/php-cs-fixer fix --config \"../mod_custom_blankghsvs/.php-cs-fixer.php\"",
 
+		"mod_extensionarticlesghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../mod_extensionarticlesghsvs/.php-cs-fixer.php\" --dry-run",
+		"mod_extensionarticlesghsvs": "vendor/bin/php-cs-fixer fix --config \"../mod_extensionarticlesghsvs/.php-cs-fixer.php\"",
+
 		"mod_splideghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../mod_splideghsvs/.php-cs-fixer.php\" --dry-run",
 		"mod_splideghsvs": "vendor/bin/php-cs-fixer fix --config \"../mod_splideghsvs/.php-cs-fixer.php\"",
 

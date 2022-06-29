@@ -2,6 +2,7 @@
 - [mod_administratorlinkghsvs](https://github.com/GHSVS-de/mod_administratorlinkghsvs)
 - [mod_contactghsvs](https://github.com/GHSVS-de/mod_contactghsvs)
 - [mod_custom_blankghsvs](https://github.com/GHSVS-de/mod_custom_blankghsvs)
+- [mod_extensionarticlesghsvs](https://github.com/GHSVS-de/mod_extensionarticlesghsvs)
 - [mod_splideghsvs](https://github.com/GHSVS-de/mod_splideghsvs)
 - [mod_tocghsvs](https://github.com/GHSVS-de/mod_tocghsvs)
 - [plg_system_bs3ghsvs_bs5](https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5)
