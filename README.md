@@ -49,6 +49,26 @@ $config
 return $config;
 ```
 
+#### PSR-12-Regeln verwenden?
+Vorsicht! PSR-12 verwendet für die Einrückung 4 Leerzeichen pro ehemals 1 Tabulator.
+
+Ich verwende das PSR-12-Set deshalb nur, wenn ich Code im Joomla-Repo einreichen will.
+
+Joomla rennt jeder Spinnerei hinterherrennt, selbst, wenn wie hier Code für manche Leute, die hohen Zoom im Editor benötigen, unlesbar wird, weil die Zeilen ellenlang und unruhig werden (Hintergrund: Man kann in einem Editor einen Tab so konfigurieren, dass er z.B. als 2 Leerzeichen angezeigt wird, aber nicht, dass 4 Leerzeichen als 2 im Editor dargestellt werden).
+
+Wenn du PSR-12 verwenden willst, dann ändere in obigem Code diese Zeilen:
+
+```PHP
+...
+$phpCsFixerRules = require_once '../php-cs-fixer-ghsvs/.php-cs-fixer.rules_psr12.php;
+...
+$config
+	// ->setRiskyAllowed(true)
+	// ->setIndent("\t")
+	->setRules($phpCsFixerRules)
+	->setFinder($mainFinder);
+```
+
 ### npm-run-Scripte für Kind-Repo
 - Lege in `package.json` dieses Repos hier (`php-cs-fixer-ghsvs`) je zwei npm-run-Scripte pro Kind-Repo an. Am Beispiel des Kind-Repos `plg_system_bs3ghsvs_bs5`:
 
