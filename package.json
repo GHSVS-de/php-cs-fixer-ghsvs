@@ -40,6 +40,9 @@
 		"plg_system_hyphenateghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_hyphenateghsvs/.php-cs-fixer.php\" --dry-run",
 		"plg_system_hyphenateghsvs": "vendor/bin/php-cs-fixer fix --config \"../plg_system_hyphenateghsvs/.php-cs-fixer.php\"",
 
+		"plg_system_hyphenateghsvs_slimDry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_hyphenateghsvs_slim/.php-cs-fixer.php\" --dry-run",
+		"plg_system_hyphenateghsvs_slim": "vendor/bin/php-cs-fixer fix --config \"../plg_system_hyphenateghsvs_slim/.php-cs-fixer.php\"",
+
 		"plg_system_importfontsghsvsDry": "vendor/bin/php-cs-fixer fix --config \"../plg_system_importfontsghsvs/.php-cs-fixer.php\" --dry-run",
 		"plg_system_importfontsghsvs": "vendor/bin/php-cs-fixer fix --config \"../plg_system_importfontsghsvs/.php-cs-fixer.php\"",
 

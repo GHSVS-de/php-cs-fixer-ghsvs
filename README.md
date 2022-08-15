@@ -1,19 +1,3 @@
-## Used by
-- [mod_administratorlinkghsvs](https://github.com/GHSVS-de/mod_administratorlinkghsvs)
-- [mod_contactghsvs](https://github.com/GHSVS-de/mod_contactghsvs)
-- [mod_custom_blankghsvs](https://github.com/GHSVS-de/mod_custom_blankghsvs)
-- [mod_extensionarticlesghsvs](https://github.com/GHSVS-de/mod_extensionarticlesghsvs)
-- [mod_splideghsvs](https://github.com/GHSVS-de/mod_splideghsvs)
-- [mod_tocghsvs](https://github.com/GHSVS-de/mod_tocghsvs)
-- [plg_system_bs3ghsvs_bs5](https://github.com/GHSVS-de/plg_system_bs3ghsvs_bs5)
-- [plg_system_characterscounterghsvs](https://github.com/GHSVS-de/plg_system_characterscounterghsvs)
-- [plg_system_convertformsghsvs](https://github.com/GHSVS-de/plg_system_convertformsghsvs)
-- [plg_system_hyphenateghsvs](https://github.com/GHSVS-de/plg_system_hyphenateghsvs)
-- [plg_system_importfontsghsvs](https://github.com/GHSVS-de/plg_system_importfontsghsvs)
-- [plg_system_onuserghsvs](https://github.com/GHSVS-de/plg_system_onuserghsvs)
-- [plg_content_prismhighlighterghsvs](https://github.com/GHSVS-de/plg_content_prismhighlighterghsvs)
-- [tpl_bs4ghsvs](https://github.com/GHSVS-de/tpl_bs4ghsvs)
-
 ## Konfiguration
 ### Globale Rules/Regeln
 - Konfiguriere Regeln in [`.php-cs-fixer.rules.php`](.php-cs-fixer.rules.php). Die Datei ist von mir. Sie enthält die globalen Regeln, die aus den Konfigurationsdateien anderer Repositories gezogen werden. Ich nenne sie folgend "Kind-Repos".
